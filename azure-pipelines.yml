@@ -11,13 +11,13 @@ variables:
   azureServiceConnectionId: 'cc63251d-2693-419d-9d69-a569086adf3b'
 
   # Web app name
-  webAppName: 'ipl_score_predictor'
+  webAppName: 'skim2086-pl_score_predictor'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
   # Environment name
-  environmentName: ''
+  environmentName: 'skim2086-ipl_score_predictor'
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
